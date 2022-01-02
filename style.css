@@ -3,65 +3,72 @@ body {
     margin: 0;
     min-height: 100vh;
   }
+/* First Container */
 
-  .body {
-      display: flex;
-      flex-direction: column;
+.containerone {
+    background: #1f2937;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .containerone {
-      background: #1f2937;
-      color: white;
-      display: flex;
-      flex-wrap: wrap;
-      align-content: space-between;
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 12px 48px;
-      width: 100%;
+.wrk {
+    font-size: 24px;
+    flex: 0 0 250px;
   }
 
-  .listone ul {
-      display: flex;
-      gap: 24px;
-      list-style-type: none;
+.listone ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    padding: 0px;
   }
 
-  .listone a {
-      color: white;
-      text-decoration: none;
+.listone a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+.maintitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
   }
 
-  .maintitle {
-      display: flex;
-      margin: 48px;
-      width: 100%;
-      justify-content: space-between;
+.signup {
+    flex-basis: 400px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    margin-right: 75px;
   }
 
-  .signup {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      justify-content: space-between;
+.art {
+    font-size: 48px;
+    font-weight: bolder;
   }
 
-  .art {
-    font-size: 40px;
-    font-weight: 900;
-    width: 325px;
-  }
-
-  .joinmail {
+.joinmail {
     font-size: 18px;
-    width: 325px;
+    color: gray;
   }
 
-  .signup button {
+.signup button {
     padding: 6px 32px;
     align-self: flex-start;
     background-color: #3882f6;
@@ -71,13 +78,116 @@ body {
     border-style: none;
   }
 
-  .hadib {
-    flex-shrink: 0;
-  }
-  
-  .hadib img {
-    width: auto;
-    height: 258px;
+.hadib img {
+    width: 100%;
+    height: auto;
     border-radius: 12px;
+    margin: 0px;
   }
-  
+
+  /*container two*/
+
+.containertwo {
+    background: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 50px 50px;
+  }
+
+.headertwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+.listtwo ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    list-style-type: none;
+    padding: 0px;
+  }
+
+.listtwo ul li img {
+    border: 3px  solid;
+    border-color: #3882f6;
+    border-radius: 6px;
+  }
+
+/* container three */
+
+.containerthree {
+    background: #e5e7eb;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 50px 50px;
+  }
+
+.quote {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 50px 150px;
+  }
+
+.famous {
+    text-align: right;
+    font-size: 20px;
+  }
+
+/* container four */
+
+.containerfour {
+    background: white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px
+  }
+
+.signbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    border-style: none;
+    padding: 30px 50px;
+  }
+
+.signbutton button {
+    padding: 6px 32px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    border-style: none;
+    border: solid;
+    border-color: white;
+  }
+
+  /* footer */
+
+.footer {
+    background: #1f2937;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
