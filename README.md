@@ -15,3 +15,8 @@ Next update. Realized that my solution to my previous issue created more problem
 
 That said, the project was pretty simple. I powered through the rest. I can more or less call it done, but plan on returning to it one more time to spruce things up a bit. I'd like to play around with image settings more, and just generally want to do more than the bare minimum.
 
+Thu Jan 6 7:05 
+Added some final touch ups to fex wrapping and to fix any mistakes after checking code in W3C Markup. Finally done! 
+
+COPYRIGHT DISCLAIMER:
+All images included are original artworks produced by myself (otherwise known as WizardsRobbingKids). The only exception is the TMFA Punk, which is an NFT created in my likeness by Matty Mo, The Most Famous Artist. I currently own the NFT and am part of the TMFA DAO. 
